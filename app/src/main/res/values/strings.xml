@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Nori - Aplikasi Antrian</string>
+    <string name="title_activity_main">Nori - Aplikasi Antrian</string>
+    <string name="package_name">com.wikand3ti.nori</string>
+    <string name="custom_url_scheme">com.wikand3ti.nori</string>
+</resources>

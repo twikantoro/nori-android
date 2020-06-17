@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "914353176827",
+    "firebase_url": "https://nori-api-24aca.firebaseio.com",
+    "project_id": "nori-api-24aca",
+    "storage_bucket": "nori-api-24aca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914353176827:android:9da871031eeb298687f05e",
+        "android_client_info": {
+          "package_name": "com.wikand3ti.nori"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914353176827-k3fsq0h5ne7b008pt28g1f6lv0koivj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQGTv_ZgPRUgvGNZG7Kl6wYr0z-hKh3Oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914353176827-k3fsq0h5ne7b008pt28g1f6lv0koivj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

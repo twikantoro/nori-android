@@ -59,8 +59,12 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     public void writeFile(String data){
         if(isExternalStorageWritable() && checkPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)){
+            File dir = new File(Environment.getExternalStorageDirectory()+"/nori");
+            if(!dir.exists()){
+                dir.mkdirs();
+            }
             try{
-                File textFile = new File(Environment.getExternalStorageDirectory(), "noriconfig.txt");
+                File textFile = new File(Environment.getExternalStorageDirectory()+"/nori", "noriconfig.txt");
                 FileOutputStream fos = new FileOutputStream(textFile);
                 fos.write(data.getBytes());
                 fos.close();
